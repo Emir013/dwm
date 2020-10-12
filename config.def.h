@@ -5,8 +5,8 @@ static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Ricty Nerd Font:size=8" };
-static const char dmenufont[]       = "Ricty Nerd Font:size=11";
+static const char *fonts[]          = { "NotoSans Nerd Font:size=8:antialias=true:autohint=true" };
+static const char dmenufont[]       = "NotoSans Nerd Font:size=11:antialias=true:autohint=true";
 static const char col_gray1[]       = "#ebebeb";
 static const char col_gray2[]       = "#868686";
 static const char col_gray3[]       = "#868686";
@@ -15,7 +15,7 @@ static const char col_cyan[]        = "#ebebeb";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeSel]  = { col_gray4, col_cyan,  col_gray4 },
 };
 
 /* tagging */
