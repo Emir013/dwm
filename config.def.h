@@ -5,7 +5,7 @@ static const unsigned int borderpx  = 2;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Ricty Nerd Font:size=9" };
+static const char *fonts[]          = { "Ricty Nerd Font:size=8" };
 static const char dmenufont[]       = "Ricty Nerd Font:size=11";
 static const char col_gray1[]       = "#ebebeb";
 static const char col_gray2[]       = "#868686";
